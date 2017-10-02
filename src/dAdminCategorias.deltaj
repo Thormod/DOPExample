@@ -1,0 +1,13 @@
+delta dAdminCategorias {
+	adds {
+		package org.pl.eshop.fop;
+		
+		import org.pl.eshop.dto.Categoria;
+		import org.pl.eshop.dto.CategoriaDAO;
+		
+		public class AdminCategoria {
+			CategoriaDAO catDAO = new CategoriaDAO();
+ 			Categoria cat = new Categoria();
+		}
+	}
+}
